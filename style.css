@@ -1,27 +1,41 @@
+/* Global Styles */
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #0f0f0f;
+  background-color: #f4f7f6;
+  color: #333333;
+}
+
+/* Header */
+header {
+  background-color: #005b96;
   color: #ffffff;
-}
-
-/* Headings */
-h2, h3 {
-  color: #00ffd1;
-}
-
-/* Sections */
-section {
-  padding: 60px 20px;
+  padding: 20px;
   text-align: center;
+}
+
+/* Navigation */
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+nav a:hover {
+  color: #ff6f61;
+}
+
+/* Section Titles */
+h2, h3 {
+  color: #005b96;
 }
 
 /* Project Cards */
 .project-card {
-  background-color: #1a1a1a;
+  background-color: #ffffff;
   padding: 20px;
-  border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0, 255, 209, 0.2);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 20px auto;
   max-width: 600px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -29,27 +43,30 @@ section {
 
 .project-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 30px rgba(255, 0, 200, 0.3);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.project-card h3 {
+  color: #005b96;
 }
 
 /* Links and Buttons */
 a, button {
   display: inline-block;
   text-decoration: none;
-  background-color: #ff00c8;
-  color: #fff;
+  background-color: #ff6f61;
+  color: #ffffff;
   padding: 10px 20px;
   border-radius: 8px;
-  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease;
   margin-top: 15px;
 }
 
 a:hover, button:hover {
-  background-color: #d100a6;
-  box-shadow: 0 0 10px #ff00c8;
+  background-color: #e65c4f;
 }
 
-/* Skills */
+/* Skills Section */
 #skills ul {
   list-style: none;
   padding: 0;
@@ -58,43 +75,37 @@ a:hover, button:hover {
 #skills li {
   display: inline-block;
   margin: 10px;
-  background-color: #1a1a1a;
+  background-color: #ffffff;
   padding: 10px 20px;
   border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0,255,209,0.2);
-  color: #00ffd1;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
 /* Contact Form */
 form {
   max-width: 600px;
   margin: auto;
-  background: #1a1a1a;
+  background: #ffffff;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(255, 0, 200, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
 input, textarea {
   width: 100%;
   padding: 12px;
   margin-top: 10px;
-  border: none;
-  background-color: #2a2a2a;
-  color: #fff;
+  border: 1px solid #ccc;
   border-radius: 8px;
   font-family: inherit;
 }
 
-input::placeholder, textarea::placeholder {
-  color: #bbb;
-}
-
 button[type="submit"] {
-  background-color: #00ffd1;
-  color: #000;
+  margin-top: 20px;
+  background-color: #005b96;
+  color: white;
 }
 
 button[type="submit"]:hover {
-  background-color: #00ccaa;
+  background-color: #004080;
 }
