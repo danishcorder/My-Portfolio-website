@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: url('https://media.istockphoto.com/id/1437887123/photo/blank-screen-glass-laptop-neon-lighting-background-with-geometric-shapes.jpg?s=1024x1024&w=is&k=20&c=7d89-ONR4RDUztC16i2KIIrKKDLoWf5Meez8ZvoMt-A=') no-repeat center center fixed;
+    background: url('https://images.pexels.com/photos/67517/pexels-photo-67517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center fixed;
     background-size: cover;
     color: #333;
     line-height: 1.6;
@@ -19,7 +19,7 @@ header {
     position: relative;
     text-align: center;
     padding: 20px;
-    background: url('https://media.istockphoto.com/id/1437887123/photo/blank-screen-glass-laptop-neon-lighting-background-with-geometric-shapes.jpg?s=1024x1024&w=is&k=20&c=7d89-ONR4RDUztC16i2KIIrKKDLoWf5Meez8ZvoMt-A=') no-repeat center center;
+    background: url('https://images.pexels.com/photos/67517/pexels-photo-67517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') no-repeat center center;
     background-size: cover;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
