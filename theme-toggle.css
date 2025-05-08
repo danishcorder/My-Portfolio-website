@@ -1,0 +1,29 @@
+/* Light Theme */
+body.light {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Dark Theme */
+body.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#theme-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    background-color: #2575fc;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#theme-toggle:hover {
+    background-color: #0056b3;
+}
