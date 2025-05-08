@@ -7,7 +7,8 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F0e%2F39%2Fc2%2F0e39c256714a4b7c0299323a82701647.jpg&tbnid=vGfzyhqc0wOHMM&vet=1&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpaulvilla72%2Fportfolio-design%2F&docid=y1hW4VR4WNqQGM&w=1920&h=1080&hl=en-US&source=sh%2Fx%2Fim%2Fm1%2F4&kgs=447d297964dc86a9');
+    background: url('https://media.istockphoto.com/id/1437887123/photo/blank-screen-glass-laptop-neon-lighting-background-with-geometric-shapes.jpg?s=1024x1024&w=is&k=20&c=7d89-ONR4RDUztC16i2KIIrKKDLoWf5Meez8ZvoMt-A=') no-repeat center center fixed;
+    background-size: cover;
     color: #333;
     line-height: 1.6;
     scroll-behavior: smooth;
@@ -15,11 +16,24 @@ body {
 
 /* Header Styles */
 header {
+    position: relative;
     text-align: center;
     padding: 20px;
-    background: url(' https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F0e%2F39%2Fc2%2F0e39c256714a4b7c0299323a82701647.jpg&tbnid=vGfzyhqc0wOHMM&vet=1&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpaulvilla72%2Fportfolio-design%2F&docid=y1hW4VR4WNqQGM&w=1920&h=1080&hl=en-US&source=sh%2Fx%2Fim%2Fm1%2F4&kgs=447d297964dc86a9');
+    background: url('https://media.istockphoto.com/id/1437887123/photo/blank-screen-glass-laptop-neon-lighting-background-with-geometric-shapes.jpg?s=1024x1024&w=is&k=20&c=7d89-ONR4RDUztC16i2KIIrKKDLoWf5Meez8ZvoMt-A=') no-repeat center center;
+    background-size: cover;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: -1;
 }
 
 header h1 {
@@ -233,25 +247,6 @@ form button {
     color: white;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0.2s;
-}
-
-form button:hover {
-    background-color: #0056b3;
-    transform: scale(1.05);
-}
-
-/* Footer */
-footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-    margin-top: 20px;
-    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
-}
-
-footer p {
-    font-size: 0.9rem;
-    letter-spacing: 1px;
-}
+    transition: background-color 0.3s, transform 0
+::contentReference[oaicite:0]{index=0}
+ 
