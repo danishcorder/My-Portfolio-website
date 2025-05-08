@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(to right, #f7f9fc, #e3f2fd);
+    background: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F0e%2F39%2Fc2%2F0e39c256714a4b7c0299323a82701647.jpg&tbnid=vGfzyhqc0wOHMM&vet=1&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpaulvilla72%2Fportfolio-design%2F&docid=y1hW4VR4WNqQGM&w=1920&h=1080&hl=en-US&source=sh%2Fx%2Fim%2Fm1%2F4&kgs=447d297964dc86a9');
     color: #333;
     line-height: 1.6;
     scroll-behavior: smooth;
@@ -17,7 +17,7 @@ body {
 header {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    background: url(' https://www.google.com/imgres?imgurl=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F0e%2F39%2Fc2%2F0e39c256714a4b7c0299323a82701647.jpg&tbnid=vGfzyhqc0wOHMM&vet=1&imgrefurl=https%3A%2F%2Fwww.pinterest.com%2Fpaulvilla72%2Fportfolio-design%2F&docid=y1hW4VR4WNqQGM&w=1920&h=1080&hl=en-US&source=sh%2Fx%2Fim%2Fm1%2F4&kgs=447d297964dc86a9');
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
