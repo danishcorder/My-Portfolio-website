@@ -247,6 +247,21 @@ form button {
     color: white;
     border: none;
     cursor: pointer;
-    transition: background-color 0.3s, transform 0
-::contentReference[oaicite:0]{index=0}
- 
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
