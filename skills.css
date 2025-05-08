@@ -1,0 +1,34 @@
+/* Skills Progress Bar */
+.skills-section {
+    padding: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1000px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.skill {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.skill h3 {
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    background: #f3f3f3;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 20px;
+    width: 100%;
+}
+
+.progress {
+    background: #2575fc;
+    height: 100%;
+    width: 0;
+    transition: width 1s ease-in-out; /* Animation */
+}
